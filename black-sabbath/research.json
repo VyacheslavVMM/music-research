@@ -1,0 +1,397 @@
+{
+  "meta": {
+    "scope_note": "Per explicit user instruction, this pass covers ONLY (A) release/recording dates and (D) sound-reputation notes. Cover-art collection (Apple/Deezer/Qobuz, pixel measurement) and Discogs real-release research were skipped intentionally — they are being done elsewhere. 'covers' and 'real_releases' arrays are therefore left empty in every album entry below; treat them as not-yet-collected, not as 'none exist'.",
+    "method_note": "This session's network egress policy blocks WebFetch and direct HTTPS access to every external host tested (en.wikipedia.org, wikidata.org, discogs.com, apple/deezer/qobuz, even example.com) — confirmed by direct testing before starting. Only the WebSearch tool (server-side, snippet/summary based, not a raw page fetch) was available. All dates and sound-quality notes below are therefore derived from WebSearch result snippets/summaries that reference the English Wikipedia infobox and various reviews/forums, NOT from a direct fetch of Wikipedia wikitext or raw API JSON. Where a WebSearch summary explicitly quoted or paraphrased the Wikipedia infobox, this is noted as the source; independent verification via direct API call was not possible in this session.",
+    "generated": "2026-09-28"
+  },
+  "albums": [
+    {
+      "album": "Technical Ecstasy",
+      "release_date": "1976-09-25",
+      "release_date_source": "WebSearch summary of enwiki infobox (https://en.wikipedia.org/wiki/Technical_Ecstasy): 'released 25 September 1976'. Not independently verified via direct API fetch (blocked). Some secondary sources cite a later UK date (8 October 1976); not confirmed.",
+      "recorded": "June 1976, Criteria Studios, Miami (per WebSearch summary of infobox)",
+      "covers": [],
+      "real_releases": [],
+      "sound_notes": [
+        {
+          "edition": "2013 Remaster (24/96 hi-res digital)",
+          "points": [
+            "Original 1976 production is generally regarded as already strong; one Amazon customer review states the production quality 'is exceptional and certainly needed no remaster'.",
+            "Available as 24-bit/96kHz hi-res via ProStudioMasters/HighResAudio alongside standard remastered CD/streaming.",
+            "No numeric DR/loudness-war measurements could be retrieved in this session (dr.loudness-war.info exists but direct fetch was blocked)."
+          ],
+          "sources": [
+            "https://www.amazon.com/Technical-Ecstasy-Black-Sabbath/product-reviews/B00HRQ2EJK",
+            "https://www.prostudiomasters.com/album/page/105958"
+          ]
+        },
+        {
+          "edition": "2021 Remaster / Super Deluxe (24/96)",
+          "points": [
+            "Remaster by Andy Pearce and Matt Wortham described by reviewers as 'deeply impressive', with the music 'jumping out of the speakers'.",
+            "Box includes a new stereo mix by Steven Wilson; some reviewers call it 'arguably the best this record has ever sounded', while others found the Wilson remix inferior to the original mix — reception is genuinely mixed on this point.",
+            "The previously unreleased 1977 live LP included in the set is described as the roughest-sounding disc of the box — 'bootleg quality' in the opening minutes, improving afterward with decent instrument separation."
+          ],
+          "sources": [
+            "https://sonicabuse.com/black-sabbath-technical-ecstasy-super-deluxe-edition-review/",
+            "https://getreadytorock.me.uk/blog/2021/09/album-review-black-sabbath-technical-ecstasy-super-deluxe-5lp-vinyl-box-set/",
+            "https://metalplanetmusic.com/2021/09/album-review-black-sabbath-technical-ecstasy-super-deluxe/"
+          ]
+        }
+      ]
+    },
+    {
+      "album": "Never Say Die!",
+      "release_date": "1978-09-29",
+      "release_date_source": "WebSearch summary of enwiki infobox (https://en.wikipedia.org/wiki/Never_Say_Die!): 'released 29 September 1978'. Not independently verified via direct API fetch (blocked).",
+      "recorded": "1978, Sounds Interchange, Toronto (per WebSearch summary of infobox)",
+      "covers": [],
+      "real_releases": [],
+      "sound_notes": [
+        {
+          "edition": "2013 Remaster (24/96 hi-res digital)",
+          "points": [
+            "Little dedicated technical commentary found; one Amazon review calls the reissue 'fantastic' sounding for a 1978 recording.",
+            "Available as 24-bit/96kHz FLAC/AIFF hi-res via ProStudioMasters and Qobuz alongside the standard remastered CD.",
+            "No numeric DR/loudness data retrievable in this session (source site blocked to direct fetch)."
+          ],
+          "sources": [
+            "https://www.prostudiomasters.com/album/page/37607",
+            "https://www.qobuz.com/us-en/album/never-say-die-black-sabbath/kzvdzmzzcdtkb",
+            "https://www.amazon.com/Never-Say-Remastered-Black-Sabbath/dp/B00HRS4FN6"
+          ]
+        }
+      ]
+    },
+    {
+      "album": "Heaven and Hell",
+      "release_date": "1980-04-18",
+      "release_date_source": "WebSearch summary of enwiki infobox (https://en.wikipedia.org/wiki/Heaven_and_Hell_(Black_Sabbath_album)): 'released 18 April 1980' (European date per infobox). Some sources (incl. a band social post) cite 25 April 1980 as the North American release date. Not independently verified via direct API fetch (blocked).",
+      "recorded": "1979-1980 (per WebSearch summary of infobox)",
+      "covers": [],
+      "real_releases": [],
+      "sound_notes": [
+        {
+          "edition": "2008 Remaster CD (16/44)",
+          "points": [
+            "No explicit DR/loudness commentary could be found in accessible search snippets for this specific remaster; general retail availability confirmed (Amazon, Deezer).",
+            "Flagged honestly: this edition's sound reputation could not be substantiated with quotable review text in this session."
+          ],
+          "sources": [
+            "https://www.amazon.com/Heaven-and-Hell-Remastered-Version/dp/B001MCVN2Y",
+            "https://dr.loudness-war.info/album/list?artist=black+sabbath&album=heaven+and+hell (page exists but could not be fetched directly in this session)"
+          ]
+        },
+        {
+          "edition": "2014 Remaster hi-res (24/192)",
+          "points": [
+            "Distributed via Rhino/Warner Records Studio Masters in both 192kHz/24-bit and 96kHz/24-bit.",
+            "Forum feedback is mixed and vendor-dependent: one Head-Fi listener reported earlier Rhino/Sanctuary-sourced versions were 'poor quality' while a version bought from HD Tracks was 'significantly improved' — implying the same nominal '2014 remaster' varies by retailer/master used."
+          ],
+          "sources": [
+            "https://www.prostudiomasters.com/album/page/35745",
+            "https://www.head-fi.org/threads/hi-res-albums-vs-mastered-for-itunes-or-apple-digital-master-albums-which-is-better.866861/page-5"
+          ]
+        },
+        {
+          "edition": "Deluxe Edition (disc 1 remaster 24/96, disc 2 bonus 24/44)",
+          "points": [
+            "Bonus disc compiles live rarities not previously released in North America: 'Children of the Sea' and 'Die Young' live from Hartford Civic Center (10 Aug 1980), plus 'E5150'/'Neon Knights' live from Hammersmith Odeon (31 Dec 1981), the latter first surfacing on the 2007 Rhino Handmade 'Live at Hammersmith Odeon' set.",
+            "No separate technical sound-quality commentary specific to this bonus disc's mastering was found; retailer listings largely reused for the later 2021 Deluxe Edition (same bonus content)."
+          ],
+          "sources": [
+            "https://towerrecords.com/collections/black-sabbath/products/black-sabbath-heaven-and-hell-deluxe-edition-2cd",
+            "https://everybodysrecords.com/UPC/603497850709"
+          ]
+        },
+        {
+          "edition": "2021 Deluxe Edition, Remaster (24/44, 19 tracks)",
+          "points": [
+            "Remaster described by reviewers as 'more focused and impactful' compared to earlier CD issues.",
+            "Core studio album praised as a fan-favourite ('a perfect 10/10 record') independent of the remaster itself.",
+            "Bonus content: live B-sides of 'Children of the Sea'/'Heaven and Hell' from the 2007 Hammersmith Odeon set, a mono radio edit of 'Lady Evil', plus previously unreleased live tracks from Hartford (10 Aug 1980) and Hammersmith Odeon (31 Dec 1981-2 Jan 1982)."
+          ],
+          "sources": [
+            "https://musictap.com/2021/03/26/review-heaven-and-hell-mob-rules-2cd-2021-black-sabbath-remasters/",
+            "https://renownedforsound.com/black-sabbath-heaven-and-hell-deluxe-edition/",
+            "https://www.allmusic.com/album/release/heaven-and-hell-2021-deluxe-edition-mr0005336670"
+          ]
+        },
+        {
+          "edition": "Japanese SHM-SACD UIGY-9088 (2012)",
+          "points": [
+            "DSD, single-layer 2-channel SACD (not hybrid) — requires an SACD-capable player, released 28 March 2012.",
+            "Reviewer feedback is positive: 'great sounding release, nice highs, mid range and a tight and crisp bass'; one reviewer noted a slight 'lack of punch' relative to louder masters but did not consider this a flaw.",
+            "Well-regarded among collectors — 4.46/5 average across 26 ratings on Discogs at time of search."
+          ],
+          "sources": [
+            "https://www.discogs.com/release/3536324-Black-Sabbath-Heaven-And-Hell",
+            "https://www.cdjapan.co.jp/product/UIGY-9088"
+          ]
+        }
+      ]
+    },
+    {
+      "album": "Mob Rules",
+      "release_date": "1981-11-04",
+      "release_date_source": "WebSearch summary of enwiki infobox (https://en.wikipedia.org/wiki/Mob_Rules_(album)): 'released 4 November 1981'. Not independently verified via direct API fetch (blocked).",
+      "recorded": "1981, Record Plant, Los Angeles (per WebSearch summary of infobox)",
+      "covers": [],
+      "real_releases": [],
+      "sound_notes": [
+        {
+          "edition": "2008 Remaster CD (16/44)",
+          "points": [
+            "Remastered at DigiPrep, released by Rhino Entertainment.",
+            "Original 1981 Martin Birch production is generally regarded as 'strong, dynamic'; no explicit DR numbers were retrievable in this session."
+          ],
+          "sources": [
+            "https://www.discogs.com/release/2382874-Black-Sabbath-Mob-Rules",
+            "https://tunebat.com/Info/The-Mob-Rules-2008-Remaster-Black-Sabbath/2Cg5XzRsGO2VYbaUYN2j8i"
+          ]
+        },
+        {
+          "edition": "2013 Remaster hi-res (24/192)",
+          "points": [
+            "Sourced from analogue master tapes (192kHz/24-bit transfer), not upscaled from a lower-resolution digital source, per retailer description.",
+            "A Discogs user comparing this hi-res digital reference against a vinyl pressing found the vinyl 'very competitive... with extra punch', implying the hi-res digital is clean/accurate but vinyl can still edge it out on punch/impact for some listeners."
+          ],
+          "sources": [
+            "https://store.acousticsounds.com/d/101848/Black_Sabbath-Mob_Rules-FLAC_192kHz24bit_Download",
+            "https://www.qobuz.com/us-en/album/mob-rules-black-sabbath/g36n3l3bkg8tc"
+          ]
+        },
+        {
+          "edition": "2021 Deluxe Edition 2CD (24/44)",
+          "points": [
+            "Rhino issued a new, reviewers say 'more dynamic', remaster superseding the 2010 UK deluxe edition.",
+            "Bonus content includes a previously unreleased full 1982 world-tour live show plus single B-sides.",
+            "Metal Express Radio rated the deluxe reissue 9/10, notably higher than typical ratings for the plain original album (~7/10), largely crediting the bonus material."
+          ],
+          "sources": [
+            "https://www.metalexpressradio.com/2021/02/19/black-sabbath-heaven-and-hell-mob-rules-deluxe-editions-2021/",
+            "https://jason-ferguson.medium.com/black-sabbath-mob-rules-2021-deluxe-edition-110c62e51d14",
+            "https://www.voicesfromthedarkside.de/review/black-sabbath-mob-rules-2-cd-deluxe-edition/"
+          ]
+        }
+      ]
+    },
+    {
+      "album": "Live Evil",
+      "release_date": "1983-01",
+      "release_date_source": "WebSearch summary of enwiki infobox (https://en.wikipedia.org/wiki/Live_Evil_(Black_Sabbath_album)): 'released January 1983' — month/year only in infobox, no exact day found. Not independently verified via direct API fetch (blocked).",
+      "recorded": "18 and 24 April, 12-13 May 1982, in Seattle, Dallas and San Antonio, during the Mob Rules Tour (per WebSearch summary of infobox)",
+      "covers": [],
+      "real_releases": [],
+      "sound_notes": [
+        {
+          "edition": "40th Anniversary Edition 2023 (2023 remaster + 2023 remix)",
+          "points": [
+            "The original 1982 mix is widely criticized: Dio's vocal and the bass guitar were mixed too far back.",
+            "The new Wyn Davis remix (from the original analogue master tapes) is strongly preferred by reviewers over the remastered-but-not-remixed original mix — drums more forward, guitars/keyboards better separated, audience ambience enhanced.",
+            "Some reviewers note the remix discs carry noticeably higher compression/loudness than expected, though still considered a net improvement over the 1982 mix."
+          ],
+          "sources": [
+            "https://www.metalexpressradio.com/2023/06/13/black-sabbath-live-evil-40th-anniversary-super-deluxe-edition/",
+            "https://trackingangle.com/music/black-sabbath-rings-in-40-years-of-live-evil",
+            "https://www.themetalpit.org/liveevil/"
+          ]
+        },
+        {
+          "edition": "2008 Remaster CD (16/44)",
+          "points": [
+            "Reviewers describe it as a clear improvement over the original vinyl/CD, but 'still not perfect'.",
+            "Geezer Butler's bass is reported to fade in and out in level throughout the album — treated by reviewers as a source-tape limitation rather than a remastering fault.",
+            "Live performances themselves are rated as 'almost album quality' despite the mix issues."
+          ],
+          "sources": [
+            "https://mikeladano.com/2015/01/15/review-black-sabbath-live-evil-remastered-2-cd-version/",
+            "https://renownedforsound.com/black-sabbath-live-evil-deluxe-edition/"
+          ]
+        }
+      ]
+    },
+    {
+      "album": "Born Again",
+      "release_date": "1983-09-12",
+      "release_date_source": "WebSearch summary of enwiki infobox (https://en.wikipedia.org/wiki/Born_Again_(Black_Sabbath_album)): 'released 12 September 1983'. Not independently verified via direct API fetch (blocked).",
+      "recorded": "May-June 1983, The Manor, Oxfordshire (per WebSearch summary of infobox)",
+      "covers": [],
+      "real_releases": [],
+      "sound_notes": [
+        {
+          "edition": "2004 Remaster CD",
+          "points": [
+            "The original 1983 mix is notoriously bass-heavy/muddy; per Tony Iommi's autobiography, Ian Gillan reportedly blew studio monitor tweeters while mixing, which went unnoticed at the time and is often cited as part of why the mix sounds off.",
+            "The 2004 remaster is described as 'more balanced' though the bass 'still feels slightly too forward at times'.",
+            "Some listener reviews remain harsh even post-remaster (one Discogs review: 'Great CD but the sound is terrible').",
+            "Source material was heavily compressed 1/4-inch tape; the remaster aimed to stay closer to the original vinyl rather than being aggressively re-EQ'd."
+          ],
+          "sources": [
+            "https://www.black-sabbath.com/2011/05/my-thoughts-on-the-born-again-remaster/",
+            "https://www.seaoftranquility.org/reviews.php?op=showcontent&id=10881",
+            "https://www.discogs.com/master/6100-Black-Sabbath-Born-Again"
+          ]
+        }
+      ]
+    },
+    {
+      "album": "Seventh Star",
+      "release_date": "1986-01-20",
+      "release_date_source": "WebSearch summary of enwiki infobox (https://en.wikipedia.org/wiki/Seventh_Star): 'released 20 January 1986' in the US, '17 February 1986' in the UK. Not independently verified via direct API fetch (blocked).",
+      "recorded": "June-August 1985, Cherokee Studios (Los Angeles) and Cheshire Sound (Atlanta) (per WebSearch summary of infobox)",
+      "covers": [],
+      "real_releases": [],
+      "sound_notes": [
+        {
+          "edition": "2004 Remaster CD",
+          "points": [
+            "Viewed as a modest improvement, described as only 'marginally better' than the preceding 1996 Castle remaster.",
+            "Called 'miles better' than the original 1987 Warner Bros. CD issue by at least one reviewer.",
+            "The underlying 1986 production (particularly the snare drum sound, called 'an abomination' by one critic) remains a limitation the remaster could not fully overcome."
+          ],
+          "sources": [
+            "https://www.black-sabbath.com/2010/10/7th_star_eternal_idol_deluxe_reviews/",
+            "https://mikeladano.com/2012/06/19/review-black-sabbath-seventh-star-deluxe-edition/"
+          ]
+        }
+      ]
+    },
+    {
+      "album": "The Eternal Idol",
+      "release_date": "1987-11",
+      "release_date_source": "WebSearch summary of enwiki infobox (https://en.wikipedia.org/wiki/The_Eternal_Idol): released 'November 1987' in the UK (Vertigo), month/year only; '8 December 1987' in the US (Warner Bros.). Not independently verified via direct API fetch (blocked).",
+      "recorded": null,
+      "covers": [],
+      "real_releases": [],
+      "sound_notes": [
+        {
+          "edition": "2005 Remaster CD",
+          "points": [
+            "Reception is split: one Metal Archives review says the remaster 'sounds exactly like the original release' (i.e. minimal improvement), while several retail customer reviews call it 'as good of a remastering job as you're going to hear'.",
+            "The underlying 1987 mix itself is a recurring complaint independent of any remaster — one reviewer describes it as sounding 'more like a rough mix than a final mix'."
+          ],
+          "sources": [
+            "https://www.metal-archives.com/reviews/Black_Sabbath/The_Eternal_Idol/521/",
+            "https://www.amazon.com/Eternal-Idol-Black-Sabbath/dp/B0012ELLBA"
+          ]
+        }
+      ]
+    },
+    {
+      "album": "Dehumanizer",
+      "release_date": "1992-06-22",
+      "release_date_source": "WebSearch summary of enwiki infobox (https://en.wikipedia.org/wiki/Dehumanizer): 'released 22 June 1992'. Not independently verified via direct API fetch (blocked).",
+      "recorded": "Late 1991-early 1992, Rockfield Studios, Rockfield, Wales (per WebSearch summary of infobox)",
+      "covers": [],
+      "real_releases": [],
+      "sound_notes": [
+        {
+          "edition": "2008 Remaster CD",
+          "points": [
+            "Reception is mixed. Some listeners describe it as 'open and loud' with good bass and prefer it over the original 1992 CD.",
+            "Others say it is 'soundwise inferior to the original CD from 1992'.",
+            "At least one reviewer suggests the source recording itself 'probably needs a remix' rather than just a remaster.",
+            "Released 17 October 2008 by Rhino Entertainment."
+          ],
+          "sources": [
+            "https://www.metal-archives.com/reviews/Black_Sabbath/Dehumanizer/529/",
+            "https://www.discogs.com/master/37616-Black-Sabbath-Dehumanizer",
+            "https://www.piercingmetal.com/dehumanizer-remaster-by-black-sabbath/"
+          ]
+        }
+      ]
+    },
+    {
+      "album": "Cross Purposes",
+      "release_date": "1994-01-26",
+      "release_date_source": "WebSearch summary of enwiki infobox (https://en.wikipedia.org/wiki/Cross_Purposes): released '26 January 1994' in Japan, '31 January 1994' in Europe, '8 February 1994' in North America. Not independently verified via direct API fetch (blocked).",
+      "recorded": "1993, Monnow Valley Studios, Rockfield, Wales (per WebSearch summary of infobox)",
+      "covers": [],
+      "real_releases": [],
+      "sound_notes": [
+        {
+          "edition": "2024 Remaster 24/44 (from the 'Anno Domini 1989-1995' box)",
+          "points": [
+            "This is the first official reissue/remaster of the album ever produced; a standalone remastered CD with a bonus track followed on 15 November 2024.",
+            "Tony Iommi has stated he was 'never happy with the guitar sound' and that drummer Cozy Powell was 'never happy with the drum sound' on the original; the remaster was made specifically to bring those elements forward 'to make it more what people would expect Sabbath to sound like'.",
+            "Early listener reaction is very positive ('It sounds so good it's like getting another new Black Sabbath album'), but no independent technical/DR analysis was found in this session."
+          ],
+          "sources": [
+            "https://theseconddisc.com/2024/03/25/black-sabbath-anno-domini-box-set/",
+            "https://blabbermouth.net/news/watch-tony-iommi-and-tony-martin-discuss-black-sabbaths-cross-purposes-album-ahead-of-anno-domini-release",
+            "https://www.black-sabbath.com/2024/03/anno-domini-1989-1995/"
+          ]
+        }
+      ]
+    },
+    {
+      "album": "Reunion",
+      "release_date": "1998-10-19",
+      "release_date_source": "WebSearch summary of enwiki infobox (https://en.wikipedia.org/wiki/Reunion_(Black_Sabbath_album)): 'released 19 October 1998'. Not independently verified via direct API fetch (blocked).",
+      "recorded": "4-5 December 1997 (live tracks, NEC, Birmingham); April-May 1998 (studio tracks, A&M Studios, Hollywood) (per WebSearch summary of infobox)",
+      "covers": [],
+      "real_releases": [],
+      "sound_notes": [
+        {
+          "edition": "25th Anniversary Expanded Edition (2023), 24/192",
+          "points": [
+            "Released 13 October 2023, remastered from the original source tapes; the two 1998 studio bonus tracks were separately remastered by Danny Saber.",
+            "Widely praised sound quality: described as 'excellent', 'nice and clean, but still quite obviously live'.",
+            "Vinyl-edition listener reviews report it 'sounds lots better than the original CD', citing clearer vocals and more present bass/drums."
+          ],
+          "sources": [
+            "https://www.albumoftheyear.org/album/779274-black-sabbath-reunion-25th-anniversary-expanded-edition/user-reviews/",
+            "https://music.apple.com/us/album/reunion-25th-anniversary-expanded-edition/1710661598",
+            "https://www.qobuz.com/us-en/album/reunion-black-sabbath/nb6xm66sja8yb"
+          ]
+        }
+      ]
+    },
+    {
+      "album": "13",
+      "release_date": "2013-06-07",
+      "release_date_source": "WebSearch summary of enwiki infobox (https://en.wikipedia.org/wiki/13_(Black_Sabbath_album)): 'released 7 June 2013'. Not independently verified via direct API fetch (blocked).",
+      "recorded": "August 2012-January 2013 (per WebSearch summary of infobox)",
+      "covers": [],
+      "real_releases": [],
+      "sound_notes": [
+        {
+          "edition": "Deluxe Version (11 tracks) and standard edition (8 tracks)",
+          "points": [
+            "Both versions share the same Rick Rubin/Andrew Scheps mastering, recorded/mixed at 96kHz/24-bit; the Deluxe edition simply adds 3 bonus tracks, it does not use a different master.",
+            "The album is commonly cited as a casualty of the 'loudness war' — over-compressed/limited dynamic range relative to what its hi-res mastering chain could have delivered, affecting CD/digital masters of both editions equally.",
+            "The vinyl LP pressing is reported by several listeners to sound noticeably more dynamic/better than the CD or digital masters."
+          ],
+          "sources": [
+            "https://www.soundonsound.com/techniques/inside-track-black-sabbath-13",
+            "https://www.amazon.com/13-CD-Deluxe-Black-Sabbath/dp/B00BTHWFBK",
+            "https://www.discogs.com/release/4636781-Black-Sabbath-13"
+          ]
+        }
+      ]
+    },
+    {
+      "album": "The End",
+      "release_date": "2017-11-17",
+      "release_date_source": "WebSearch summary of enwiki infobox (https://en.wikipedia.org/wiki/The_End:_Live_in_Birmingham): 'released 17 November 2017'. Not independently verified via direct API fetch (blocked). (Matches release date given in task brief.)",
+      "recorded": "4 February 2017, Genting Arena, Birmingham, England (final show of The End Tour) (per WebSearch summary of infobox)",
+      "covers": [],
+      "real_releases": [],
+      "sound_notes": [
+        {
+          "edition": "24/96 digital, 17 tracks",
+          "points": [
+            "Reviewers describe the audio as 'top-notch', with audience ambience and enthusiasm audible throughout the near-two-hour set.",
+            "Available as a 24-bit/96kHz hi-res digital release (ProStudioMasters) alongside CD/DVD/Blu-ray/vinyl physical editions.",
+            "No dedicated technical (DR/loudness) breakdown specific to the 24/96 digital master was found in available sources."
+          ],
+          "sources": [
+            "https://www.prostudiomasters.com/album/page/16915",
+            "https://sonicabuse.com/black-sabbath-the-end-dvd-review/"
+          ]
+        }
+      ]
+    }
+  ]
+}
